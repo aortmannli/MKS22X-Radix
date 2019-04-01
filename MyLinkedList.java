@@ -46,7 +46,9 @@ public class MyLinkedList<E>{
   private int len;
   private Node start,end;
 
-  public MyLinkedList(){}
+  public MyLinkedList(){
+    size=0;
+  }
 
   public int size(){
     return len;
